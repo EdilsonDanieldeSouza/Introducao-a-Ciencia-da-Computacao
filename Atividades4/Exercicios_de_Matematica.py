@@ -1,4 +1,4 @@
- # potencia
+# potencia
 i = 1
 while i < 50:
     print(2 ** i)
