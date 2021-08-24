@@ -6,6 +6,4 @@ horas = diasSobra // 3600
 horasSobra = diasSobra % 3600
 minutos = horasSobra // 60
 segundos = horasSobra % 60
-
-
 print(dias, 'dias,', horas, 'horas,', minutos, 'minutos e', segundos, 'segundos.')

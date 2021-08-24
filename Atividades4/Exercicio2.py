@@ -10,13 +10,12 @@ if delta > 0:
     raiz_um = (-b - y) / 2
     raiz_dois = (-b + y) / 2
     if raiz_um < raiz_dois:
-        print(f'as raízes da equação são {raiz_um} e {raiz_dois}')
+        print(f'As raízes da equação são {raiz_um} e {raiz_dois}')
     else:
-        print(f'as raízes da equação são {raiz_dois} e {raiz_um}')
+        print(f'As raízes da equação são {raiz_dois} e {raiz_um}')
 if delta == 0:
     y = math.sqrt((b ** 2) - 4 * a * c)
-    raiz_um = (-b - y) / 2
-    raiz_dois = (-b + y) / 2
-    print('a raiz dupla desta equação é', raiz_um)
+    raiz = (-b - y) / 2
+    print('A raiz dupla desta equação é', raiz)
 if delta < 0:
-    print('esta equação não possui raízes reais')
+    print('Está equação não possui raízes reais')
