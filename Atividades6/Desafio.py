@@ -1,12 +1,16 @@
-from math import factorial
-
 n = int(input('Digite o valor de n: '))
 k = int(input('Digite o valor de k: '))
 
 
-def fatorial(numero):
-    return factorial(numero)
+def fatorial(n):
+    fat = 1
+    while n > 1:
+        fat *= n
+        n -= 1
+    return fat
 
 
-CoefBiominal = fatorial(n) / factorial(k) * factorial(n - k)
-print(CoefBiominal)
+def numero_binominal(n, k):
+    return fatorial(n) // (fatorial(k) * fatorial(n - k))
+
+print(numero_binominal(n, k))
